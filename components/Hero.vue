@@ -5,13 +5,14 @@
         <div class="columns is-vcentered">
           <div class="column is-half">
             <div class="content">
-              <h2 class="title-serif is-size-3">The future. For <vue-typer
-                :text='["everyone","charities", "citizens", "businesses", "everyone"]'
-                repeat='0'
+              <h2 class="title-serif is-size-2">The future. For <vue-typer
+                :text='["everyone.","charities.", "citizens.", "businesses.", "everyone."]'
+                :repeat='1'
                 erase-style='backspace'
-                erase-delay= '50'
-                ></vue-typer>.</h2>
-              <p class="hello has-text-grey is-size-5"> We are firm believers in tech as the future-shaping force that <span class="shadow is-purple">drives progress</span>. Our aim is to <span class="shadow is-success">blur the lines</span> between <span class="shadow is-danger">technology</span>, <span class="shadow is-warning"> design</span>, and <span class="shadow is-turquoise">humanism</span> by bringing high-tech products to the <span class="shadow is-danger">people</span>.</p>  
+                :erase-delay= '50'
+                ></vue-typer></h2>
+              <p class="hello has-text-grey is-size-4"> We are firm believers in tech as the future-shaping force that <span class="shadow is-purple">drives progress</span>. Our aim is to <span class="shadow is-success">blur the lines</span> between <span class="shadow is-danger">technology</span>, <span class="shadow is-warning"> design</span>, and <span class="shadow is-turquoise">humanism</span> by bringing high-tech products to the <span class="shadow is-danger">people</span>.</p>
+              <p class="hello has-text-grey is-size-4">Welcome to <span class="shadow is-purple">Hello Leia</span>.</p>
             </div>
           </div>
           <div class="column is-half">
@@ -23,7 +24,11 @@
 	</section>
 </template>
 
-<style>
+<style scoped>
+
+.title-serif {
+  font-family: Georgia, serif;
+}
 
 .vue-typer .custom.char {
   color: #363636;
@@ -52,10 +57,6 @@
 .shadow.is-success {
   -webkit-box-shadow: inset 0 -6px 0 rgba(35,209,153,.2);
   box-shadow: inset 0 -6px 0 rgba(35,209,153,.2);
-}
-
-.title-serif {
-  font-family: Georgia, serif;
 }
 
 /*.hello {
