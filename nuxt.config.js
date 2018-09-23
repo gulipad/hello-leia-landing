@@ -39,7 +39,8 @@ module.exports = {
     'nuxt-buefy'
   ],
   plugins: [
-    {src: '~/plugins/vue-typer', ssr: false}
+    {src: '~/plugins/vue-typer', ssr: false},
+    {src: '~/plugins/vue-smooth-scroll', ssr: false}
   ]
 
 }

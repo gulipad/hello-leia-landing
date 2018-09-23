@@ -8,19 +8,28 @@
 				<div class="navbar-menu">
 					<div class="navbar-end">
 						<div class="navbar-item ">
-							<a href="" class=" shadow is-purple is-link has-text-grey">Purpose</a>
+							<a href="#purpose"
+                class=" shadow is-purple is-link has-text-grey"
+                v-smooth-scroll="{duration: 3000, offset: 0}">Purpose</a>
 						</div>
 						<div class="navbar-item">
-							<a href="" class="is-link has-text-grey shadow is-warning">Methodology</a>
+							<a href="#methodology"
+                class="is-link has-text-grey shadow is-warning"
+                v-smooth-scroll="{duration: 3000, offset: 0}">Methodology</a>
 						</div>
 						<div class="navbar-item">
-							<a href="" class="is-link has-text-grey shadow is-danger">Projects</a>
+							<a href="#projects"
+                class="is-link has-text-grey shadow is-danger"
+                v-smooth-scroll="{duration: 3000, offset: 0}">Projects</a>
 						</div>
 						<div class="navbar-item">
-							<a href="" class="is-link has-text-grey shadow is-success">Team</a>
+							<a href=""
+              class="is-link has-text-grey shadow is-success">Team</a>
 						</div>
 						<div class="navbar-item">
-							<a href="" class="is-link has-text-grey shadow is-turquoise">Contact</a>
+							<a href="#contact"
+                class="is-link has-text-grey shadow is-turquoise"
+                v-smooth-scroll="{duration: 3000, offset: 0}">Contact</a>
 						</div>
 					</div>
 				</div>
@@ -31,9 +40,9 @@
 
 <style scoped>
   .navbar-end .navbar-item {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;

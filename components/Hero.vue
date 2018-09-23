@@ -24,13 +24,13 @@
 	</section>
 </template>
 
-<style scoped>
+<style >
 
 .title-serif {
   font-family: Georgia, serif;
 }
 
-.vue-typer .custom.char {
+.vue-typer .custom.char.typed {
   color: #363636;
 }
 
