@@ -10,26 +10,26 @@
 						<div class="navbar-item ">
 							<a href="#purpose"
                 class=" shadow is-purple is-link has-text-grey"
-                v-smooth-scroll="{duration: 3000, offset: 0}">Purpose</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">Purpose</a>
 						</div>
 						<div class="navbar-item">
 							<a href="#methodology"
                 class="is-link has-text-grey shadow is-warning"
-                v-smooth-scroll="{duration: 3000, offset: 0}">Methodology</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">Methodology</a>
 						</div>
 						<div class="navbar-item">
 							<a href="#projects"
                 class="is-link has-text-grey shadow is-danger"
-                v-smooth-scroll="{duration: 3000, offset: 0}">Projects</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">Projects</a>
 						</div>
-						<div class="navbar-item">
+						<!-- <div class="navbar-item">
 							<a href=""
               class="is-link has-text-grey shadow is-success">Team</a>
-						</div>
+						</div> -->
 						<div class="navbar-item">
 							<a href="#contact"
                 class="is-link has-text-grey shadow is-turquoise"
-                v-smooth-scroll="{duration: 3000, offset: 0}">Contact</a>
+                v-smooth-scroll="{duration: 2000, offset: 0}">Contact</a>
 						</div>
 					</div>
 				</div>

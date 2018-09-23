@@ -12,7 +12,7 @@
         </div>
         <div class="column is-half">
           <div class="content">
-            <p class="is-size-5 has-text-weight-light has-text-grey"> We develop beatifully simple <span class="shadow is-danger">user-centered</span> digital products, using the selected <span class="shadow is-purple">Technologies</span> to the selected <span class="shadow is-turquoise">Agents</span> one step closer to the future.</p>
+            <p class="is-size-5 has-text-weight-light has-text-grey"> We develop beatifully simple, <span class="shadow is-danger">user-centered</span> digital products, using the selected <span class="shadow is-purple">Technologies</span> to the selected <span class="shadow is-turquoise">Agents</span> one step closer to the future.</p>
             <p class="is-size-5 has-text-weight-light has-text-grey">Welcome to Hello Leia.</p>
           </div>
         </div>
@@ -33,17 +33,19 @@
                   <p class="subtitle is-6">Bus times in Madrid</p>
                 </div>
               </div>
-              <div class="content">
-                Facebook Messenger chatbot for Madrid's EMT. It can tell users how much the bus will take to get to their stop, in real time.
-                <br>
-              </div>
               <div class="tags">
                 <div class="tag is-medium is-light">Cities</div>
                 <div class="tag is-medium is-info">NLP</div>
                 <div class="tag is-medium is-warning">Chatbot</div>
               </div>
+              <div class="content">
+                Facebook Messenger chatbot for Madrid's EMT. It can tell users how much the bus will take to get to their stop, in real time.
+              </div>
+              <a href="https://www.messenger.com/t/KittyBusMadrid" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Try it now
+              </a>
             </div>
-          </div>  
+          </div>
         </div>
         <div class="column is-one-third">
           <div class="card">
@@ -59,15 +61,16 @@
                   <p class="subtitle is-6">Cryptocoin gathering for charity</p>
                 </div>
               </div>
-
-              <div class="content">
-                A Google Chrome extension to mine cryptocoins for charity. It also serves as a window to the world for charitable projects.
-                <br>
-              </div>
               <div class="tags">
                 <div class="tag is-medium is-light">Charities</div>
                 <div class="tag is-medium is-primary">Cryptocoins</div>
               </div>
+              <div class="content">
+                A Google Chrome extension to mine cryptocoins for charity. It also serves as a window to the world for charitable projects.
+              </div>
+              <a href="http://www.blocksforchange.org" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Visit web
+              </a>
             </div>
           </div>
         </div>
@@ -85,15 +88,16 @@
                   <p class="subtitle is-6">Daily gospel and saints</p>
                 </div>
               </div>
-
-              <div class="content">
-                Facebook Messenger chatbot fot Christian communities. It sends the daily gospel and saints.
-                <br>
-              </div>
               <div class="tags">
                 <div class="tag is-medium is-light">Church</div>
                 <div class="tag is-medium is-primary">Cryptocoins</div>
               </div>
+              <div class="content">
+                Facebook Messenger chatbot fot Christian communities. It sends the daily gospel and saints.
+              </div>
+              <a href="https://www.messenger.com/t/fraypericoevangelio" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Try it now
+              </a>
             </div>
           </div>
         </div>
@@ -113,13 +117,15 @@
                   <p class="subtitle is-6">Magic forecasiting for business</p>
                 </div>
               </div>
-
-              <div class="content">
-                Time series forecasting based on Facebook Messenger's Prophet API. Fast and simple forecasts of sales an more.
-              </div>
               <div class="tags">
                 <div class="tag is-medium is-light">SMEs</div>
                 <div class="tag is-medium is-success">Machine Learning</div>
+              </div>
+              <div class="content">
+                Time series forecasting based on Facebook Messenger's Prophet API. Fast and simple forecasts of sales an more.
+              </div>
+              <div class="button is-medium is-fullwidth is-rounded is-outlined is-static">
+                Under construction
               </div>
             </div>
           </div>  
@@ -138,15 +144,17 @@
                   <p class="subtitle is-6">Cities and citizens, connected</p>
                 </div>
               </div>
-
-              <div class="content">
-                Facebook Messenger Chatbot-as-a-platform for cities to easily connect with citizens - and vice versa.
-                <br>
-              </div>
               <div class="tags">
                 <div class="tag is-medium is-light">Cities</div>
                 <div class="tag is-medium is-info">NLP</div>
                 <div class="tag is-medium is-warning">Chatbot</div>
+              </div>
+              <div class="content">
+                Facebook Messenger Chatbot-as-a-platform for cities to easily connect with citizens - and vice versa.
+                <br>
+              </div>
+              <div class="button is-medium is-fullwidth is-rounded is-outlined is-static">
+                Under construction
               </div>
             </div>
           </div>

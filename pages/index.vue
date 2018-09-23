@@ -8,6 +8,9 @@
     <methodology id="methodology"></methodology>
     <horizontal-divider></horizontal-divider>
     <projects id="projects"></projects>
+    <horizontal-divider></horizontal-divider>
+    <contact id="contact"></contact>
+    <hello-footer></hello-footer>
   </div>
 </template>
 
@@ -18,6 +21,8 @@ import Purpose from '~/components/Purpose.vue'
 import HorizontalDivider from '~/components/HorizontalDivider.vue'
 import Methodology from '~/components/Methodology.vue'
 import Projects from '~/components/Projects.vue'
+import Contact from '~/components/Contact.vue'
+import HelloFooter from '~/components/HelloFooter.vue'
 
 export default {
   components: {
@@ -26,7 +31,9 @@ export default {
     Purpose,
     HorizontalDivider,
     Methodology,
-    Projects
+    Projects,
+    Contact,
+    HelloFooter
   }
 }
 </script>
