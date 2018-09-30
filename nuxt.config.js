@@ -3,11 +3,15 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'hello-leia-web',
+    title: 'Hello Leia. Tech + Humans',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Revamp of Hello Leia Website' }
+      { hid: 'description',
+        name: 'Hello Leia. Building the future',
+        content: 'Home of Hello Leia. A non-commercial exploration of Technology and Design for everyone',
+        keywords: 'blockchain, cryptocoins, machine learning, chatbots, messenger, español'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -20,6 +24,24 @@ module.exports = {
   /*
   ** Build configuration
   */
+  router: {
+    scrollBehavior(to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition
+      } else {
+        let position = {}
+        if (to.matched.length < 2) {
+          position = { x: 0, y: 0 }
+        } else if (to.matched.some(r => r.components.default.options.scrollToTop)) {
+          position = { x: 0, y: 0 }
+        }
+        if (to.hash) {
+          position = { selector: to.hash }
+        }
+        return position
+      }
+    }
+  },
   build: {
     /*
     ** Run ESLint on save
@@ -35,12 +57,28 @@ module.exports = {
       }
     }
   },
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
+    ]
+  },
   modules: [
-    'nuxt-buefy'
+    ['nuxt-buefy', {
+      materialDesignIcons: false}],
+    ['nuxt-fontawesome']
   ],
+
   plugins: [
     {src: '~/plugins/vue-typer', ssr: false},
-    {src: '~/plugins/vue-smooth-scroll', ssr: false}
+    {src: '~/plugins/vue-smooth-scroll', ssr: false},
+    {src: '~/plugins/aos', ssr: false}
   ]
 
 }

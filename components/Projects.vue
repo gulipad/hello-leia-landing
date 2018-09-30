@@ -2,7 +2,7 @@
   <section class="section purpose-section is-small">
     <div class="container">
       <div class="columns is-spaced">
-        <div class="column is-one-third">
+        <div data-aos="fade-in" class="column is-one-third">
           <div class="content">
             <h2 class="title-serif is-size-1">3. Projects</h2>
             <p class="is-size-4">/ˈprɒdʒɛkt/</p>
@@ -10,16 +10,16 @@
             <p class="is-size-6 has-text-weight-light">1. an individual or collaborative enterprise that is carefully planned to achieve a particular aim.</p>
           </div>
         </div>
-        <div class="column is-half">
+        <div data-aos="fade-in" class="column is-half">
           <div class="content">
-            <p class="is-size-5 has-text-weight-light has-text-grey"> We develop beatifully simple, <span class="shadow is-danger">user-centered</span> digital products, using the selected <span class="shadow is-purple">Technologies</span> to the selected <span class="shadow is-turquoise">Agents</span> one step closer to the future.</p>
+            <p class="is-size-5 has-text-weight-light has-text-grey"> We develop beatifully simple, <span class="shadow is-danger">user-centered</span> digital products, using the selected <span class="shadow is-purple">Technologies</span> to bring the selected <span class="shadow is-turquoise">Agents</span> one step closer to the future.</p>
             <p class="is-size-5 has-text-weight-light has-text-grey">Welcome to Hello Leia.</p>
           </div>
         </div>
       </div>
       <br> <!-- This is a bit hacky -->
       <div class="columns is-spaced">
-        <div class="column is-one-third">
+        <div data-aos="fade-up" class="column is-one-third">
           <div class="card">  
             <div class="card-image">
               <figure class="image is-4by3">
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-        <div class="column is-one-third">
+        <div data-aos="fade-up" class="column is-one-third">
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
@@ -74,7 +74,7 @@
             </div>
           </div>
         </div>
-        <div class="column is-one-third">
+        <div data-aos="fade-up" class="column is-one-third">
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
@@ -90,7 +90,8 @@
               </div>
               <div class="tags">
                 <div class="tag is-medium is-light">Church</div>
-                <div class="tag is-medium is-primary">Cryptocoins</div>
+                <div class="tag is-medium is-info">NLP</div>
+                <div class="tag is-medium is-warning">Chatbot</div>
               </div>
               <div class="content">
                 Facebook Messenger chatbot fot Christian communities. It sends the daily gospel and saints.
@@ -103,7 +104,7 @@
         </div>
       </div>
       <div class="columns">
-        <div class="column is-one-third">
+        <div data-aos="fade-up" class="column is-one-third">
           <div class="card">  
             <div class="card-image">
               <figure class="image is-4by3">
@@ -130,7 +131,7 @@
             </div>
           </div>  
         </div>
-        <div class="column is-one-third">
+        <div data-aos="fade-up" class="column is-one-third">
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
@@ -197,10 +198,6 @@
     justify-content: space-between;
   }
 
-  .navbar-end .navbar-item:hover {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
   .shadow.is-purple {
       -webkit-box-shadow: inset 0 -6px 0 rgba(184,107,255,.2);
       box-shadow: inset 0 -6px 0 rgba(184,107,255,.2);

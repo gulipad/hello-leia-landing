@@ -10,6 +10,8 @@
     <projects id="projects"></projects>
     <horizontal-divider></horizontal-divider>
     <contact id="contact"></contact>
+    <horizontal-divider></horizontal-divider>
+    <team id="team"></team>
     <hello-footer></hello-footer>
   </div>
 </template>
@@ -22,6 +24,7 @@ import HorizontalDivider from '~/components/HorizontalDivider.vue'
 import Methodology from '~/components/Methodology.vue'
 import Projects from '~/components/Projects.vue'
 import Contact from '~/components/Contact.vue'
+import Team from '~/components/Team.vue'
 import HelloFooter from '~/components/HelloFooter.vue'
 
 export default {
@@ -33,6 +36,7 @@ export default {
     Methodology,
     Projects,
     Contact,
+    Team,
     HelloFooter
   }
 }

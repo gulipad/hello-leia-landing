@@ -19,10 +19,6 @@
     justify-content: space-between;
   }
 
-  .navbar-end .navbar-item:hover {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
   .shadow.is-purple {
       -webkit-box-shadow: inset 0 -6px 0 rgba(184,107,255,.2);
       box-shadow: inset 0 -6px 0 rgba(184,107,255,.2);

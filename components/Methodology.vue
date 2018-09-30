@@ -2,7 +2,7 @@
   <section class="section purpose-section is-small">
     <div class="container">
       <div class="columns is-spaced">
-        <div class="column is-one-third">
+        <div data-aos="fade-in" class="column is-one-third">
           <div class="content">
             <h2 class="title-serif is-size-1">2. Methodology</h2>
             <p class="is-size-4">/mɛθəˈdɒlədʒi/</p>
@@ -10,9 +10,9 @@
             <p class="is-size-6 has-text-weight-light">1. a system of methods used in a particular area of study or activity.</p>
           </div>
         </div>
-        <div class="column is-half">
+        <div data-aos="fade-in" class="column is-half">
           <div class="content">
-            <p class="is-size-5 has-text-weight-light has-text-grey"> <span class="shadow is-purple">Hello Leia</span> is not a startup. It is a non-commercial <span class="shadow is-turquoise">exploration</span> of design and technology, to dive deep into what makes a digital product connect better with <span class="shadow is-danger">humans</span>. This exploration is based on the <a href="https://medium.com/the-happy-startup-school/beyond-mvp-10-steps-to-make-your-product-minimum-loveable-51800164ae0c" class="shadow is-success"> Minumum Lovable Product</a>. We build products with <i>just</i> the features they need, without neglecting the human element, supported by great <span class="shadow is-warning">design</span>. 
+            <p class="is-size-5 has-text-weight-light has-text-grey"> <span class="shadow is-purple">Hello Leia</span> is not a startup. It is a non-commercial <span class="shadow is-turquoise">exploration</span> of design and technology, to dive deep into what makes a digital product connect better with <span class="shadow is-danger">humans</span>. This exploration is based on the <a href="https://medium.com/the-happy-startup-school/beyond-mvp-10-steps-to-make-your-product-minimum-loveable-51800164ae0c" target="_blank" class="shadow is-success"> Minumum Lovable Product</a>. We build products with <i>just</i> the features they need, without neglecting the human element, supported by great <span class="shadow is-warning">design</span>. 
             <p class="is-size-5 has-text-weight-light has-text-grey">To do this, we have selected 3 <span class="shadow is-turquoise">Agents</span> and 3 <span class="shadow is-purple">Technologies</span>. Our method combines these Technologies to build real solutions for these Agents.</p>
           </div>
         </div>
@@ -20,10 +20,10 @@
       <br> <!-- This is a bit hacky -->
       <div class="columns">
         <div class="column">
-          <h3 class="is-size-2 title-serif">Technologies</h3>
-          <hr class="sub-category-underliner hr-technologies">
+          <h3 data-aos="fade-up" class="is-size-2 title-serif">Technologies</h3>
+          <hr data-aos="fade-up" class="sub-category-underliner hr-technologies">
           <br> <!-- This is a bit hacky -->
-          <div class="level">
+          <div data-aos="fade-up" class="level">
             <div class="card">
               <div class="card-content">
                 <div class="media">
@@ -46,7 +46,7 @@
               </div>
             </div>
           </div>
-          <div class="level">
+          <div data-aos="fade-up" class="level">
             <div class="card">
               <div class="card-content">
                 <div class="media">
@@ -69,7 +69,7 @@
               </div>
             </div>
           </div>
-          <div class="level">
+          <div data-aos="fade-up" class="level">
             <div class="card">
               <div class="card-content">
                 <div class="media">
@@ -94,10 +94,10 @@
           </div>
         </div>  
         <div class="column">
-          <h3 class="is-size-2 title-serif">Agents</h3>
-          <hr class="sub-category-underliner hr-agents">
+          <h3 data-aos="fade-up" class="is-size-2 title-serif">Agents</h3>
+          <hr data-aos="fade-up" class="sub-category-underliner hr-agents">
           <br> <!-- This is a bit hacky -->
-          <div class="level">
+          <div data-aos="fade-up" class="level">
             <div class="card">
               <div class="card-content">
                 <div class="media">
@@ -119,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="level">
+          <div data-aos="fade-up" class="level">
             <div class="card">
               <div class="card-content">
                 <div class="media">
@@ -142,7 +142,7 @@
               </div>
             </div>
           </div>
-          <div class="level">
+          <div data-aos="fade-up" class="level">
             <div class="card">
               <div class="card-content">
                 <div class="media">
@@ -201,10 +201,6 @@
     justify-content: space-between;
   }
 
-  .navbar-end .navbar-item:hover {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
   .shadow.is-purple {
       -webkit-box-shadow: inset 0 -6px 0 rgba(184,107,255,.2);
       box-shadow: inset 0 -6px 0 rgba(184,107,255,.2);

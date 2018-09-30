@@ -5,7 +5,7 @@
         <div class="columns is-vcentered">
           <div class="column is-half">
             <div class="content">
-              <h2 class="title-serif is-size-2">The future. For <vue-typer
+              <h2 class="title-serif is-size-2">The future. <br class="is-hidden-widescreen-only"> For <vue-typer
                 :text='["everyone.","charities.", "citizens.", "businesses.", "everyone."]'
                 :repeat='1'
                 erase-style='backspace'

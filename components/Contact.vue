@@ -2,14 +2,14 @@
   <section class="section purpose-section is-small">
     <div class="container">
       <div class="columns is-spaced">
-        <div class="column is-two-fifths">
+        <div data-aos="fade-in" class="column is-two-fifths">
           <div class="content">
             <h2 class="title-serif is-size-1">Contact</h2>
             <p class="is-size-5 has-text-weight-light has-text-grey">We'd love to hear from <span class="shadow is-purple">you</span>. Have thoughts? Comments? Ideas?</p>
-            <p class="is-size-5 has-text-weight-light has-text-grey">Whatever your doubt may be, we <span class="shadow is-turquoise">listen</span></p>
+            <p class="is-size-5 has-text-weight-light has-text-grey">Whatever your doubt may be, we're here to <span class="shadow is-turquoise">listen</span>.</p>
           </div>
         </div>
-        <div class="column is-half">
+        <div data-aos="fade-in" class="column is-half">
           <form id="contact-form" class="contact-form" action="https://formspree.io/helloleiaai@gmail.com"
                 method="POST">
             <div class="field">
@@ -44,19 +44,11 @@
 </template>
 
 <style scoped>
-  
+
   .title-serif {
     font-family: Georgia, serif;
   }
 
-  .columns.is-spaced {
-    justify-content: space-between;
-  }
-
-  .navbar-end .navbar-item:hover {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
   .shadow.is-purple {
       -webkit-box-shadow: inset 0 -6px 0 rgba(184,107,255,.2);
       box-shadow: inset 0 -6px 0 rgba(184,107,255,.2);
