@@ -40,7 +40,7 @@
                 </div>
               </div>
               <div class="content">
-                Aerospace Engineer turned Developer turned Product Manager. I take learnings from my job at a high-growth startup, to design, build, and deploy beautiful products. My spare time is surfing, footballing, or making music.
+                Aerospace Engineer turned Developer turned Product Manager. I take learnings from my job at a high-growth startup to design, build, and deploy beautiful products. My spare time is spent surfing, playing football, or making music. Technovation volunteer.
               </div>
             </div>
           </div>
