@@ -2,7 +2,7 @@
   <section class="section purpose-section is-small">
     <div class="container">
       <div class="columns is-spaced">
-        <div data-aos="fe-in" class="column is-one-third">
+        <div data-aos="fade-in" class="column is-one-third">
           <div class="content">
             <h2 class="title-serif is-size-1">4. Team</h2>
             <p class="is-size-4">/tiːm/</p>
@@ -19,7 +19,7 @@
       </div>
       <br> <!-- This is a bit hacky -->
       <div class="columns">
-        <div class="column is-one-half">
+        <div data-aos="fade-up" class="column is-one-half">
           <div class="card">  
             <div class="card-content">
               <div class="media">
@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="column is-one-half">
+        <div data-aos="fade-up" class="column is-one-half">
           <div class="card">  
             <div class="card-content">
               <div class="media">
@@ -75,7 +75,7 @@
       </div>
       <br>
       <br>
-      <div class="level">
+      <div data-aos="fade-in" class="level">
         <div class="level-item">
           <img class="image is-64x64" src="../static/mit.png">
         </div>
