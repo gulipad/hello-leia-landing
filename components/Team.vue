@@ -80,7 +80,7 @@
           <img class="image is-64x64" src="../static/mit.png">
         </div>
         <div class="level-item">
-          <img class="image is-64x64" src="../static/ashoka.png">
+          <img class="image is-64x64" src="../static/ironhack.png">
         </div>
         <div class="level-item">
           <img class="image is-64x64" src="../static/airbus.jpeg">

@@ -11,7 +11,10 @@ module.exports = {
         name: 'Hello Leia. Building the future',
         content: 'Home of Hello Leia. A non-commercial exploration of Technology and Design for everyone',
         keywords: 'blockchain, cryptocoins, machine learning, chatbots, messenger, español'
-      }
+      },
+      {property: 'og:title', content: 'Hello Leia - The future. For everyone.'},
+      {property: 'og:description', content: 'An exploration of technology, design and humanism. To bring the future closer for everyone.'},
+      {property: 'og:image', content: '../static/tech-curve-long.svg'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -68,7 +71,10 @@ module.exports = {
   modules: [
     ['nuxt-buefy', {
       materialDesignIcons: false}],
-    ['nuxt-fontawesome']
+    ['nuxt-fontawesome'],
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-96149906-1'
+    }]
   ],
 
   plugins: [

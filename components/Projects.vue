@@ -51,13 +51,13 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img class="border-hack" src="../static/blocks-for-change.png" alt="Placeholder image">
+                <img class="border-hack" src="../static/blocks-lite.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Blocks for Change</p>
+                  <p class="title is-4">Blocks for Change Lite</p>
                   <p class="subtitle is-6">Cryptocoin gathering for charity</p>
                 </div>
               </div>
@@ -66,9 +66,9 @@
                 <div class="tag is-medium is-primary">Cryptocoins</div>
               </div>
               <div class="content">
-                A Google Chrome extension to mine cryptocoins for charity. It also serves as a window to the world for charitable projects.
+                Lite version of the Blocks for Change extension. It is a web-based crypto-mining platform for charity.
               </div>
-              <a href="http://www.blocksforchange.org" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+              <a href="http://blocks-lite.surge.sh/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
                 Visit web
               </a>
             </div>
@@ -105,6 +105,33 @@
       </div>
       <div class="columns">
         <div data-aos="fade-up" class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img class="border-hack" src="../static/blocks-for-change.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Blocks for Change</p>
+                  <p class="subtitle is-6">Cryptocoin gathering for charity</p>
+                </div>
+              </div>
+              <div class="tags">
+                <div class="tag is-medium is-light">Charities</div>
+                <div class="tag is-medium is-primary">Cryptocoins</div>
+              </div>
+              <div class="content">
+                A Google Chrome extension to mine cryptocoins for charity. It also serves as a window to the world for charitable projects.
+              </div>
+              <a href="http://www.blocksforchange.org" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Visit web
+              </a>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="column is-one-third">
           <div class="card">  
             <div class="card-image">
               <figure class="image is-4by3">
@@ -123,7 +150,7 @@
                 <div class="tag is-medium is-success">Machine Learning</div>
               </div>
               <div class="content">
-                Time series forecasting based on Facebook Messenger's Prophet API. Fast and simple forecasts of sales an more.
+                Time series forecasting based on Facebook Research's Prophet API. Fast and simple forecasts of sales an more.
               </div>
               <div class="button is-medium is-fullwidth is-rounded is-outlined is-static">
                 Under construction
