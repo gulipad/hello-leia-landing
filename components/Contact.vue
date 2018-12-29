@@ -9,7 +9,7 @@
             <p class="is-size-5 has-text-weight-light has-text-grey">Whatever your doubt may be, we're here to <span class="shadow is-turquoise">listen</span>.</p>
           </div>
         </div>
-        <div class="column is-half">
+        <div data-aos="fade-in" class="column is-half">
           <form name="contact" action="/thank-you" netlify-honeypot="bot-field" method="post" netlify>
             <input type="hidden" name="form-name" value="contact" />
             <p class="hidden">     
@@ -18,7 +18,7 @@
             <div class="field">
               <label class="label">Name</label>
               <div class="control">
-                <input class="input" type="text" name="name" placeholder="First and Last Name" />
+                <input class="input" type="text" name="name" placeholder="First and Last Name" required="true" />
               </div>
             </div>
             <div class="field">
