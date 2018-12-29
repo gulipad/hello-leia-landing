@@ -10,7 +10,7 @@
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
-          <form name="main-contact" id="contact-form" netlify netlify-honeypot action="" class="contact-form" method="POST">
+          <form name="main-contact" id="contact-form" action="" class="contact-form" method="post" netlify>
             <div class="field">
               <label class="label">Name</label>
               <div class="control">
