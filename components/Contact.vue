@@ -20,13 +20,13 @@
             <div class="field">
               <label class="label">Email</label>
               <div class="control">
-                <input class="input" type="email" name="_replyto" placeholder="Email address" required="true" value="">
+                <input class="input" type="email" name="email" placeholder="Email address" required="true" value="">
               </div>
             </div>
             <div class="field">
               <label class="label">Message</label>
               <div class="control">
-                <textarea class="textarea" name="_message" maxlength="500" required="true" placeholder="Your message here. Leave no thoughts out."></textarea>
+                <textarea class="textarea" name="message" maxlength="500" required="true" placeholder="Your message here. Leave no thoughts out."></textarea>
               </div>
             </div>
             <div class="field">
