@@ -9,7 +9,7 @@
             <p class="is-size-5 has-text-weight-light has-text-grey">Whatever your doubt may be, we're here to <span class="shadow is-turquoise">listen</span>.</p>
           </div>
         </div>
-        <div data-aos="fade-in" class="column is-half">
+        <div class="column is-half">
           <form name="main-contact" id="contact-form" action="" class="contact-form" method="post" netlify>
             <div class="field">
               <label class="label">Name</label>
