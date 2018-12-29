@@ -10,7 +10,7 @@
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
-          <form name="main-contact" id="contact-form" data-netlify="true" class="contact-form" method="POST">
+          <form name="main-contact" id="contact-form" netlify netlify-honeypot class="contact-form" method="POST">
             <div class="field">
               <label class="label">Name</label>
               <div class="control">
@@ -20,7 +20,7 @@
             <div class="field">
               <label class="label">Email</label>
               <div class="control">
-                <input class="input" type="email" name="email" placeholder="Email address" required="true" value="">
+                <input class="input" type="email" name="email" placeholder="Email address" required="true">
               </div>
             </div>
             <div class="field">
@@ -32,7 +32,7 @@
             <div class="field">
               <div class="control">
                 <button class="button is-medium is-primary" type="submit">Submit</button>
-                <input type="text" name="_gotcha" style="display:none" />
+                <input type="text" style="display:none" />
               </div>
             </div>
           </form>
