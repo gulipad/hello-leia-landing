@@ -10,8 +10,7 @@
           </div>
         </div>
         <div data-aos="fade-in" class="column is-half">
-          <form id="contact-form" class="contact-form" action="https://formspree.io/helloleiaai@gmail.com"
-                method="POST">
+          <form name="main-contact"id="contact-form" data-netlify="true" class="contact-form" method="POST">
             <div class="field">
               <label class="label">Name</label>
               <div class="control">
