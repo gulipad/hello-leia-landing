@@ -67,7 +67,7 @@
                 </div>
               </div>
               <div class="content">
-                Industrial Desgin Engineer and aspiring Mathematician. Co-founder of <a href="http://www.reinventatueducation.com" target="_blank" rel="nofollow">reinventatueducacion.com</a>, an initiative to change Spanish education. Humanist at heart, I have a passion for solving social problems. I enjoy writing, the sun and travelling.
+                Industrial Design Engineer and Mathematician. Co-founder of <a href="http://www.reinventatueducation.com" target="_blank" rel="nofollow">reinventatueducacion.com</a>, an initiative to change Spanish education. Humanist at heart, I have a passion for solving social problems. I enjoy writing, the sun and travelling.
               </div>
             </div>
           </div>

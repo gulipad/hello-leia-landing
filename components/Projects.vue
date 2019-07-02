@@ -51,24 +51,24 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img class="border-hack" src="../static/blocks-lite.png" alt="Placeholder image">
+                <img class="border-hack" src="../static/bah.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Blocks for Change Lite</p>
-                  <p class="subtitle is-6">Cryptocoin gathering for charity</p>
+                  <p class="title is-4">Booking Against Hunger</p>
+                  <p class="subtitle is-6">Browser extension for charity</p>
                 </div>
               </div>
               <div class="tags">
                 <div class="tag is-medium is-light">Charities</div>
-                <div class="tag is-medium is-primary">Cryptocoins</div>
               </div>
               <div class="content">
-                Lite version of the Blocks for Change extension. It is a web-based crypto-mining platform for charity.
+                Built in partnership with Action Against Hunger and Booking.com. Booking.com donates 7% of bookings through the app.
+                <br>
               </div>
-              <a href="http://blocks-lite.surge.sh/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+              <a href="http://www.blocksforchange.org" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
                 Visit web
               </a>
             </div>
@@ -132,6 +132,33 @@
           </div>
         </div>
         <div data-aos="fade-up" class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img class="border-hack" src="../static/blocks-lite.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Blocks for Change Lite</p>
+                  <p class="subtitle is-6">Cryptocoin gathering for charity</p>
+                </div>
+              </div>
+              <div class="tags">
+                <div class="tag is-medium is-light">Charities</div>
+                <div class="tag is-medium is-primary">Cryptocoins</div>
+              </div>
+              <div class="content">
+                Lite version of the Blocks for Change extension. It is a web-based crypto-mining platform for charity.
+              </div>
+              <a href="http://blocks-lite.surge.sh/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Visit web
+              </a>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="column is-one-third">
           <div class="card">  
             <div class="card-image">
               <figure class="image is-4by3">
@@ -142,7 +169,7 @@
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Propheteer</p>
-                  <p class="subtitle is-6">Magic forecasiting for business</p>
+                  <p class="subtitle is-6">Magic forecasting for business</p>
                 </div>
               </div>
               <div class="tags">
@@ -157,35 +184,6 @@
               </div>
             </div>
           </div>  
-        </div>
-        <div data-aos="fade-up" class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img class="border-hack" src="../static/vecinity.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-content">
-                  <p class="title is-4">Vecinity</p>
-                  <p class="subtitle is-6">Cities and citizens, connected</p>
-                </div>
-              </div>
-              <div class="tags">
-                <div class="tag is-medium is-light">Cities</div>
-                <div class="tag is-medium is-info">NLP</div>
-                <div class="tag is-medium is-warning">Chatbot</div>
-              </div>
-              <div class="content">
-                Facebook Messenger Chatbot-as-a-platform for cities to easily connect with citizens - and vice versa.
-                <br>
-              </div>
-              <div class="button is-medium is-fullwidth is-rounded is-outlined is-static">
-                Under construction
-              </div>
-            </div>
-          </div>
         </div>
       </div>  
     </div>
