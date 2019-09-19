@@ -57,7 +57,7 @@
             <div class="card-content">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Booking Against Hunger</p>
+                  <p class="title is-4">Travel Against Hunger</p>
                   <p class="subtitle is-6">Browser extension for charity</p>
                 </div>
               </div>
@@ -68,12 +68,41 @@
                 Built in partnership with Action Against Hunger and Booking.com. Booking.com donates 7% of bookings through the app.
                 <br>
               </div>
-              <a href="http://www.blocksforchange.org" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
-                Visit web
+              <a href="http://www.blocksforchange.org" class="button is-medium is-fullwidth is-rounded is-outlined is-static">
+                October 2019
               </a>
             </div>
           </div>
         </div>
+        <div data-aos="fade-up" class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img class="border-hack" src="../static/comgo.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">The Common Good Chain</p>
+                  <p class="subtitle is-6">Transparent donations through Blockchain</p>
+                </div>
+              </div>
+              <div class="tags">
+                <div class="tag is-medium is-light">Charities</div>
+                <div class="tag is-medium is-primary">Blockchain</div>
+              </div>
+              <div class="content">
+                Product advisor for the donation traceability platform built on IBM's hyperledger and led by <a href="https://www.linkedin.com/in/amartinezitwillbe/">Arancha Martínez</a> 
+              </div>
+              <a href="https://www.comgo.io/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Visit Site
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
         <div data-aos="fade-up" class="column is-one-third">
           <div class="card">
             <div class="card-image">
@@ -85,7 +114,7 @@
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Perico</p>
-                  <p class="subtitle is-6">Daily gospel and saints</p>
+                  <p class="subtitle is-6">Daily Gospel and Saints</p>
                 </div>
               </div>
               <div class="tags">
@@ -94,7 +123,7 @@
                 <div class="tag is-medium is-warning">Chatbot</div>
               </div>
               <div class="content">
-                Facebook Messenger chatbot fot Christian communities. It sends the daily gospel and saints.
+                Facebook Messenger chatbot for Christian communities. It sends the daily Gospel and Saints.
               </div>
               <a href="https://www.messenger.com/t/fraypericoevangelio" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
                 Try it now
@@ -102,8 +131,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="columns">
         <div data-aos="fade-up" class="column is-one-third">
           <div class="card">
             <div class="card-image">
@@ -158,6 +185,8 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="columns">
         <div data-aos="fade-up" class="column is-one-third">
           <div class="card">  
             <div class="card-image">
@@ -177,7 +206,7 @@
                 <div class="tag is-medium is-success">Machine Learning</div>
               </div>
               <div class="content">
-                Time series forecasting based on Facebook Research's Prophet API. Fast and simple forecasts of sales an more.
+                Time series forecasting based on Facebook Research's Prophet API. Fast and simple forecasts of sales and more.
               </div>
               <div class="button is-medium is-fullwidth is-rounded is-outlined is-static">
                 Under construction
@@ -185,7 +214,7 @@
             </div>
           </div>  
         </div>
-      </div>  
+      </div>
     </div>
   </section>
 </template>
