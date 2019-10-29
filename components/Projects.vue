@@ -69,7 +69,7 @@
                 <br>
               </div>
               <a href="http://www.blocksforchange.org" class="button is-medium is-fullwidth is-rounded is-outlined is-static">
-                October 2019
+                November 2019
               </a>
             </div>
           </div>
