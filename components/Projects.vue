@@ -68,8 +68,8 @@
                 Built in partnership with Action Against Hunger and Booking.com. Booking.com donates 7% of bookings through the app.
                 <br>
               </div>
-              <a href="http://www.blocksforchange.org" class="button is-medium is-fullwidth is-rounded is-outlined is-static">
-                November 2019
+              <a href="https://www.donaviajando.org" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Visit site
               </a>
             </div>
           </div>
