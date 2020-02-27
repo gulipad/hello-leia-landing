@@ -76,9 +76,9 @@
       <br>
       <br>
       <div data-aos="fade-in" class="level">
-        <!-- <div class="level-item">
-          <img class="image is-64x64" src="../static/mit.png">
-        </div> -->
+        <div class="level-item">
+          <img class="image is-64x64" src="../static/berkeley.jpg">
+        </div>
         <div class="level-item">
           <img class="image is-64x64" src="../static/ironhack.png">
         </div>
