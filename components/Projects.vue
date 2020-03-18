@@ -26,7 +26,7 @@
                 <img class="border-hack" src="../static/kittybus.png" alt="Placeholder image">
               </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Kittybus Madrid</p>
@@ -54,7 +54,7 @@
                 <img class="border-hack" src="../static/bah.png" alt="Placeholder image">
               </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Travel Against Hunger</p>
@@ -78,24 +78,24 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img class="border-hack" src="../static/comgo.png" alt="Placeholder image">
+                <img class="border-hack" src="../static/covid.png" alt="Placeholder image">
               </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">The Common Good Chain</p>
-                  <p class="subtitle is-6">Transparent donations through Blockchain</p>
+                  <p class="title is-4">COVID-19 Awareness App</p>
+                  <p class="subtitle is-6">The math behind social distancing</p>
                 </div>
               </div>
               <div class="tags">
-                <div class="tag is-medium is-light">Charities</div>
-                <div class="tag is-medium is-primary">Blockchain</div>
+                <div class="tag is-medium is-light">Cities</div>
+                <div class="tag is-medium is-primary">Data Science</div>
               </div>
               <div class="content">
-                Product advisor for the donation traceability platform built on IBM's hyperledger and led by <a href="https://www.linkedin.com/in/amartinezitwillbe/">Arancha Martínez</a> 
+                Built an app to raise awareness on the need to stay home to help diminish the COVID-19 crisis. Product Hunt <a href="https://www.producthunt.com/posts/flatten-the-curve" target="_blank">#3 Product of the Day.</a>
               </div>
-              <a href="https://www.comgo.io/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+              <a href="https://flattenthecurve.herokuapp.com/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
                 Visit Site
               </a>
             </div>
@@ -110,7 +110,7 @@
                 <img class="border-hack" src="../static/perico.png" alt="Placeholder image">
               </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Perico</p>
@@ -135,25 +135,25 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img class="border-hack" src="../static/blocks-for-change.png" alt="Placeholder image">
+                <img class="border-hack" src="../static/comgo.png" alt="Placeholder image">
               </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Blocks for Change</p>
-                  <p class="subtitle is-6">Cryptocoin gathering for charity</p>
+                  <p class="title is-4">The Common Good Chain</p>
+                  <p class="subtitle is-6">Transparent donations through Blockchain</p>
                 </div>
               </div>
               <div class="tags">
                 <div class="tag is-medium is-light">Charities</div>
-                <div class="tag is-medium is-primary">Cryptocoins</div>
+                <div class="tag is-medium is-primary">Blockchain</div>
               </div>
               <div class="content">
-                A Google Chrome extension to mine cryptocoins for charity. It also serves as a window to the world for charitable projects.
+                Product advisor for the donation traceability platform built on IBM's hyperledger and led by <a href="https://www.linkedin.com/in/amartinezitwillbe/">Arancha Martínez</a> 
               </div>
-              <a href="http://www.blocksforchange.org" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
-                Visit web
+              <a href="https://www.comgo.io/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Visit Site
               </a>
             </div>
           </div>
@@ -165,7 +165,7 @@
                 <img class="border-hack" src="../static/blocks-lite.png" alt="Placeholder image">
               </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Blocks for Change Lite</p>
@@ -188,13 +188,40 @@
       </div>
       <div class="columns">
         <div data-aos="fade-up" class="column is-one-third">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img class="border-hack" src="../static/blocks-for-change.png" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content card-content-hack">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Blocks for Change</p>
+                  <p class="subtitle is-6">Cryptocoin gathering for charity</p>
+                </div>
+              </div>
+              <div class="tags">
+                <div class="tag is-medium is-light">Charities</div>
+                <div class="tag is-medium is-primary">Cryptocoins</div>
+              </div>
+              <div class="content">
+                A Google Chrome extension to mine cryptocoins for charity. It also serves as a window to the world for charitable projects.
+              </div>
+              <a href="http://www.blocksforchange.org" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+                Visit web
+              </a>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up" class="column is-one-third">
           <div class="card">  
             <div class="card-image">
               <figure class="image is-4by3">
                 <img class="border-hack" src="../static/propheteer.png" alt="Placeholder image">
               </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content card-content-hack">
               <div class="media">
                 <div class="media-content">
                   <p class="title is-4">Propheteer</p>
@@ -226,6 +253,9 @@
   }
 
   .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     box-shadow: 0 5px 14px rgba(10, 10, 10, 0.1), 0 0 0 0px rgba(10, 10, 10, 0.1);
     border-radius: 10px;
     -webkit-transform: translateZ(0);
@@ -236,6 +266,12 @@
     transition-property: all;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
+  }
+
+  .card-content-hack {
+    display: flex;
+    flex-direction: column;
+    height: 100%
   }
 
   .card:hover {
