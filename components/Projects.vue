@@ -152,7 +152,7 @@
               <div class="content">
                 Product advisor for the donation traceability platform built on IBM's hyperledger and led by <a href="https://www.linkedin.com/in/amartinezitwillbe/">Arancha Martínez</a> 
               </div>
-              <a href="https://www.comgo.io/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
+              <a href="https://stopcovid.io/" target="_blank" class="button is-medium is-fullwidth is-rounded is-outlined is-link">
                 Visit Site
               </a>
             </div>
