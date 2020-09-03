@@ -30,7 +30,7 @@
                 </div>
                 <div class="media-content">
                   <p class="title is-4">Ignacio Moreno Pubul</p>
-                  <p class="subtitle is-6">Product Manager @Geoblink</p>
+                  <p class="subtitle is-6">Co-founder @Capchase</p>
                   <div class="tags">
                     <div class="tag is-medium is-light">Aerospace Engineer</div>
                     <a class="is-brand is-size-3 align-hack is-linkedin" href="https://www.linkedin.com/in/imorenopubul/" target="_blank" rel="nofollow">
@@ -56,9 +56,9 @@
                 </div>
                 <div class="media-content">
                   <p class="title is-4">Myriam Barnés Guevara </p> 
-                  <p class="subtitle is-6">Mathematics Student @UCM</p>
+                  <p class="subtitle is-6">VC @Kfund</p>
                   <div class="tags">
-                    <div class="tag is-medium is-light">Industrial Design</div>
+                    <div class="tag is-medium is-light">Venture Capital</div>
                     <div class="tag is-medium is-light">Mathematics</div>
                     <a class="is-brand is-size-3 align-hack is-linkedin" href="https://www.linkedin.com/in/myriambarnes/" target="_blank" rel="nofollow">
                       <font-awesome-icon :icon="['fab', 'linkedin']"/>
